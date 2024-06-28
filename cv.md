@@ -4,10 +4,10 @@
 1. My contacts:
     * alena-alekseeva140913@mail.ru
     * Telegram: @alena_13a
-    
+
 1. Brief information about yourself:
 
-I worked in a logistics company as a department head. . Now I am a self-employed entrepreneur. I had a clothing store. I want to learn js and work as a freelancer. I also do design. I like to read and learn new information.
+I worked in a logistics company as a department head. Now I am a self-employed entrepreneur. I had a clothing store. I want to learn js and work as a freelancer. I also do design. I like to read and learn new information.
 
 1. My skills:
 
@@ -25,9 +25,9 @@ I worked in a logistics company as a department head. . Now I am a self-employed
 
 1. Code examples and experience:
     * [math game](https://github.com/Alena1409/HomeworkHexlet)
-    * learned to do [tab](https://github.com/Alena1409/HomeworkHexlet)
+    * learned to do [tab](https://github.com/Alena1409/lessonTab/tree/main/js)
 
-1. education:
+1. Education:
     * MGOU, bachelor degree, peregogic education, direction: economic education.
     * trainings to prepare for the position of department head
     * training courses hexlet (preparatory Course JS, Basics JS)
