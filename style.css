@@ -1,50 +1,124 @@
-*{
-    margin: 0 auto;
-}
+html {
+    scroll-behavior: smooth;
+  }
 body{
-    width: 1440px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: #161616;
     color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-header{
-    margin-bottom: 90px;
-    /* border: #b8333c 5px solid; */
-    min-height: 278px;
+a{
+    color: white;
+    text-decoration: none;
 }
-
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    /* border: #b8333c 1px solid; */
+    display: flex;
+}
+.nav{
+    float: right;
+}
+.nav-list{
+    display: flex;
+    justify-content: end;
+    align-items:center;
+    list-style: none;
+    padding: 0;
+    line-height: 0;
+}
+.nav-item{
+    font-size: 31px;
+}
 .myFoto{
-    width: 225px;
-    height: 225px;
-    float: left;
-    margin: 50px 0; 
+    max-width: 225px;
+    max-height: 225px;
+    float: inline-start;
+    margin: 40px 0;
 }
 .myName{
     width: 812px;
     height: 158px;
     float: right;
-    margin: 45px 0; 
+    margin: 40px 0; 
 }
-nav{
-    float: right;
+.nav-link{
+    transition: 0.3s;
+    padding-left: 22px;
 }
-nav>a{
-    color: white;
-    text-decoration: none;
-    margin-left: 19px;
-    font-size: 31px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.nav-link:hover{
+    color:#b8333c;
+    text-decoration: underline #b8333c;
 }
-/* main{
-    border: #b8333c 5px solid;
-} */
-h1{
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section{
+    width: 50%;
+}
+.title{
     color: #b8333c;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 129px;
-    letter-spacing: 0.075em;
+    letter-spacing: 0.077em;
     text-align: center;
+    padding: 0 0;
+    line-height: 0;
 }
+.section-title{
+    font-size: 50px;
+    letter-spacing: 0.08em;
+    padding: 1rem;
+}
+.section{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+}
+.section:hover{
+    box-shadow: -5px 0px 5px -5px rgba(184, 51, 60, 0.6);
+}
+.section-description {
+    padding: 1rem;
+}
+.section-span{
+    color:#b8333c;
+}
+.logoRs{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    min-height: 100px;
+    box-shadow: 0 0 10px 0 #b8333c;
+
+}
+.yar{
+    float: left;
+    margin: 40px 0;
+    font-size: 30px;
+}
+.logoschool{
+    float: right;
+    margin: 40px 0
+}
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+  }
