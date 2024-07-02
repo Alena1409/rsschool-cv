@@ -1,3 +1,50 @@
 *{
     margin: 0 auto;
 }
+body{
+    width: 1440px;
+    background-color: #161616;
+    color: white;
+}
+header{
+    margin-bottom: 90px;
+    /* border: #b8333c 5px solid; */
+    min-height: 278px;
+}
+
+.myFoto{
+    width: 225px;
+    height: 225px;
+    float: left;
+    margin: 50px 0; 
+}
+.myName{
+    width: 812px;
+    height: 158px;
+    float: right;
+    margin: 45px 0; 
+}
+nav{
+    float: right;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin-left: 19px;
+    font-size: 31px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* main{
+    border: #b8333c 5px solid;
+} */
+h1{
+    color: #b8333c;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 129px;
+    letter-spacing: 0.075em;
+    text-align: center;
+}
