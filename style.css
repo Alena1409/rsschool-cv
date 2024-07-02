@@ -45,6 +45,7 @@ a{
     max-height: 225px;
     float: inline-start;
     margin: 40px 0;
+    border-radius: 50%;
 }
 .myName{
     width: 812px;
@@ -76,12 +77,12 @@ a{
     letter-spacing: 0.077em;
     text-align: center;
     padding: 0 0;
-    line-height: 0;
+    line-height: 7rem;
 }
 .section-title{
     font-size: 50px;
     letter-spacing: 0.08em;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 .section{
     font-family: "Roboto", sans-serif;
@@ -93,9 +94,15 @@ a{
     box-shadow: -5px 0px 5px -5px rgba(184, 51, 60, 0.6);
 }
 .section-description {
-    padding: 1rem;
+    padding: 0 1rem;
 }
 .section-span{
+    color:#b8333c;
+}
+.section-list{
+    list-style: none;
+}
+.section-link:hover{
     color:#b8333c;
 }
 .logoRs{
@@ -106,6 +113,7 @@ a{
 footer{
     min-height: 100px;
     box-shadow: 0 0 10px 0 #b8333c;
+    margin-top: 50px;
 
 }
 .yar{
