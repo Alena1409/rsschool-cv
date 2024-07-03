@@ -171,3 +171,18 @@ footer{
       width: 100%;
     }
   }
+
+  @media (max-width: 1072px) {
+    .myFoto{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .myName{
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  }
