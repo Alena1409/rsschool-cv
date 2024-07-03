@@ -101,8 +101,49 @@ a{
 }
 .section-list{
     list-style: none;
+    line-height: 2rem;
+}
+.section-list-ba{
+    list-style-image: url(assets/ico/brackets-angle.png);
 }
 .section-link:hover{
+    color:#b8333c;
+}
+.section-item{
+    position: relative;
+}
+.section-link-email::before{
+    content: '';
+        background-image: url(assets/ico/@.png);
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        background-size: cover;
+        left: -30px;
+        top: 4px;
+}
+.section-link-github::before{
+    content: '';
+        background-image: url(assets/ico/social-github.png);
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        background-size: cover;
+        left: -30px;
+        top: 4px;
+}
+.section-item-tel::before {
+    content: '';
+        background-image: url(assets/ico/send.png);
+        width: 22px;
+        height: 22px;
+        position: absolute;
+        background-size: cover;
+        left: -30px;
+        top: 4px;
+}
+
+.section-link-projects:hover{
     color:#b8333c;
 }
 .logoRs{

@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -12,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/ico/favicon.ico">
 </head>
 
 <body>
@@ -40,11 +41,11 @@
                 <h2 class="section-title">Contacts</h2>
                 <div class="section-description">
                     <ul class="section-list">
-                        <li class="section-item"><a href="mailto:alena-alekseeva140913@mail.ru" class="section-link"><span
+                        <li class="section-item"><a href="mailto:alena-alekseeva140913@mail.ru" class="section-link section-link-email"><span
                                     class="section-span">e-mail: </span>alena-alekseeva140913@mail.ru</a></li>
-                        <li class="section-item"><a href="https://github.com/Alena1409" target="_blank" class="section-link"><span
+                        <li class="section-item"><a href="https://github.com/Alena1409" target="_blank" class="section-link section-link-github"><span
                                     class="section-span">github: </span>Alena1409</a></li>
-                        <li class="section-item"><span class="section-span">telegram: </span>@alena_13</li>
+                        <li class="section-item section-item-tel"><span class="section-span">telegram: </span>@alena_13</li>
                     </ul>
                 </div>
             </section>
@@ -59,7 +60,7 @@
             <section class="section" id="Skills">
                 <h2 class="section-title">Skills</h2>
                 <div class="section-description">
-                    <ul class="section-list">
+                    <ul class="section-list section-list-ba">
                         <li>HTML | CSS | JS</li>
                         <li>Git | GitHub</li>
                         <li>Figma | Conva</li>
@@ -70,13 +71,20 @@
             <section class="section" id="Code">
                 <h2 class="section-title">Code</h2>
                 <div class="section-description">
-                    nen ljk;ty ,snm rjl
+                    <code>
+                        function getTimeRemaining(endtime) {<br>
+                            let t = Date.parse(endtime) - Date.parse(new Date());<br>
+                            let seconds = Math.floor((t/1000) % 60);<br>
+                            let minutes = Math.floor((t/1000/60) % 60);<br>
+                            let hours = Math.floor((t/(1000*60*60)));<br>
+                        }
+                    </code>
                 </div>
             </section>
             <section class="section" id="Courses">
                 <h2 class="section-title">Courses</h2>
                 <div class="section-description">
-                    <ul class="section-list">
+                    <ul class="section-list section-list-ba">
                     <li>trainings to prepare for the position of department head</li>
                     <li>training courses hexlet (preparatory Course JS, Basics JS)</li>
                     <li>training courses beonmax (HTML, CSS, JavaScript, BOOTSTRAP, PHP/MYSQL/JQUERY)</li>
@@ -87,10 +95,10 @@
             <section class="section" id="Projects">
                 <h2 class="section-title">Projects</h2>
                 <div class="section-description">
-                    <ul class="section-list">
-                        <li><a href="https://github.com/Alena1409/HomeworkHexlet">MathGame</a></li>
-                        <li><a href="https://github.com/Alena1409/lessonTab/tree/main/js"></a>learned to do tab</li>
-                        <li><a href="https://github.com/Alena1409/rsschool-cv"></a>CV</li>
+                    <ul class="section-list section-list-ba">
+                        <li><a href="https://github.com/Alena1409/HomeworkHexlet" class="section-link-projects">MathGame</a></li>
+                        <li><a href="https://github.com/Alena1409/lessonTab/tree/main/js"class="section-link-projects">learned to do tab</a></li>
+                        <li><a href="https://github.com/Alena1409/rsschool-cv" class="section-link-projects">CV</a></li>
                     </ul>
                 </div>
             </section>
