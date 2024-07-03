@@ -151,7 +151,7 @@ a{
     height: 50px;
 }
 
-footer{
+.footer{
     min-height: 100px;
     box-shadow: 0 0 10px 0 #b8333c;
     margin-top: 50px;
@@ -161,10 +161,12 @@ footer{
     float: left;
     margin: 40px 0;
     font-size: 30px;
+    padding: 20px;
 }
 .logoschool{
     float: right;
-    margin: 40px 0
+    margin: 40px 0;
+    padding: 20px;
 }
   @media (max-width: 1072px) {
     .myFoto{
