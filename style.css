@@ -65,9 +65,9 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-.section {
+/* .section {
     width: 50%;
-}
+} */
 .title {
     color: #b8333c;
     font-family: "Bebas Neue", sans-serif;
@@ -89,6 +89,13 @@ a {
     font-weight: 300;
     font-style: normal;
     font-size: 20px;
+}
+
+.left {
+    width: 42%;
+}
+.right {
+    width: 58%;
 }
 .section:hover {
     box-shadow: -5px 0px 5px -5px rgba(184, 51, 60, 0.6);
@@ -161,10 +168,18 @@ a {
     font-size: 30px;
     padding: 20px;
 }
+
+.year-link:hover {
+    color: #b8333c;
+}
 .logoschool {
     float: right;
     margin: 40px 0;
     padding: 20px;
+}
+
+.logoschool:hover {
+    filter: drop-shadow(2px 2px 5px #b8333c);
 }
 
 @media (max-width: 1480px) {
