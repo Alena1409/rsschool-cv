@@ -65,9 +65,6 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-/* .section {
-    width: 50%;
-} */
 .title {
     color: #b8333c;
     font-family: "Bebas Neue", sans-serif;
@@ -90,7 +87,6 @@ a {
     font-style: normal;
     font-size: 20px;
 }
-
 .left {
     width: 42%;
 }
