@@ -14,141 +14,145 @@
     <link rel="icon" href="assets/ico/favicon.ico">
 </head>
 <body>
-    <header class="header">
-        <div class="container container-flex">
-            <img class="myFoto" src="assets/img/ava.jpg" alt="my foto">
-            <div class="logoNav">
-                <img class="logo" src="assets/img/Name.png" alt="my name Alekseeva Alena">
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-item"><a href="#Contacts" class="nav-link">Contacts</a></li>
-                        <li class="nav-item"><a href="#Summary" class="nav-link">Summary</a></li>
-                        <li class="nav-item"><a href="#Skills" class="nav-link">Skills</a></li>
-                        <li class="nav-item"><a href="#Code" class="nav-link">Code</a></li>
-                        <li class="nav-item"><a href="#Courses" class="nav-link">Courses</a></li>
-                        <li class="nav-item"><a href="#Projects" class="nav-link">Projects</a></li>
-                        <li class="nav-item"><a href="#Education" class="nav-link">Education </a></li>
-                        <li class="nav-item"><a href="#English" class="nav-link">English</a></li>
-                    </ul>
-                </nav>
-            </div>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__photo">
+        <img src="assets/img/ava.jpg" alt="Alekseeva Alena photo">
+      </div>
+        
+      <div class="header__content">
+        <img class="header__content-name" src="assets/img/Name.svg" alt="my name Alekseeva Alena">
+        <nav class="nav">
+          <ul class="nav__list">
+              <li class="nav__item"><a href="#Contacts" class="nav__link">Contacts</a></li>
+              <li class="nav__item"><a href="#Summary" class="nav__link">Summary</a></li>
+              <li class="nav__item"><a href="#Skills" class="nav__link">Skills</a></li>
+              <li class="nav__item"><a href="#Code" class="nav__link">Code</a></li>
+              <li class="nav__item"><a href="#Courses" class="nav__link">Courses</a></li>
+              <li class="nav__item"><a href="#Projects" class="nav__link">Projects</a></li>
+              <li class="nav__item"><a href="#Education" class="nav__link">Education </a></li>
+              <li class="nav__item"><a href="#English" class="nav__link">English</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="container main__container">
+      <div class="main__title">
+        <h1>Junior Front-end developer</h1>
+      </div>
+
+      <section class="section" id="Contacts">
+        <h2 class="section__title">Contacts</h2>
+        <div class="section__description">
+          <ul class="section__list">
+            <li class="section__item"><a class="section__link"  href="mailto:alena-alekseeva140913@mail.ru">a77993519@gmail.com</class=a></li>
+            <li class="section__item"><a class="section__link" href="https://github.com/Alena1409" target="_blank">github: Alena1409</a></li>
+            <li class="section-item">telegram: @alena_13</li>
+          </ul>
         </div>
-    </header>
-    <main class="main">
-        <div class="container main-container">
-            <h1 class="title">Junior Front-end developer</h1>
-            <section class="section left" id="Contacts">
-                <h2 class="section-title">Contacts</h2>
-                <div class="section-description">
-                    <ul class="section-list">
-                        <li class="section-item"><a href="mailto:alena-alekseeva140913@mail.ru"
-                                class="section-link section-link-email"><span class="section-span">e-mail:
-                                </span>alena-alekseeva140913@mail.ru</a></li>
-                        <li class="section-item"><a href="https://github.com/Alena1409" target="_blank"
-                                class="section-link section-link-github"><span class="section-span">github:
-                                </span>Alena1409</a></li>
-                        <li class="section-item section-item-tel"><span class="section-span">telegram: </span>@alena_13
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section right" id="Summary">
-                <h2 class="section-title">Summary</h2>
-                <div class="section-description">
-                    I worked in a logistics company as a department head. Now I am a self-employed entrepreneur. I had a
-                    clothing store. I want to learn js and work as a freelancer. I also do design. I like to read and
-                    learn new information.
-                </div>
-            </section>
-            <section class="section left" id="Skills">
-                <h2 class="section-title">Skills</h2>
-                <div class="section-description">
-                    <ul class="section-list section-list-ba">
-                        <li>HTML | CSS | JS</li>
-                        <li>Git | GitHub</li>
-                        <li>Figma | Conva</li>
-                        <li>Bootstrap</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section right" id="Code">
-                <h2 class="section-title">Code</h2>
-                <div class="section-description">
-                    <code>
-                        function getTimeRemaining(endtime) {<br>
-                            let t = Date.parse(endtime) - Date.parse(new Date());<br>
-                            let seconds = Math.floor((t/1000) % 60);<br>
-                            let minutes = Math.floor((t/1000/60) % 60);<br>
-                            let hours = Math.floor((t/(1000*60*60)));<br>
-                        }
-                    </code>
-                </div>
-            </section>
-            <section class="section left" id="Projects">
-                <h2 class="section-title">Projects</h2>
-                <div class="section-description">
-                    <ul class="section-list section-list-ba">
-                        <li><a href="https://alena1409.github.io/PRESCHOOL2024-ALENA/audio-player"
-                                class="section-link-projects" target="_blank">Audio-player</a></li>
-                        <li><a href="https://alena1409.github.io/PRESCHOOL2024-ALENA/shelter"
-                                class="section-link-projects" target="_blank">Shelter</a></li>
-                        <li><a href="https://alena1409.github.io/PRESCHOOL2024-ALENA/random-game"
-                                class="section-link-projects" target="_blank">Random-game(snake)</a></li>
-                        <li><a href="https://alena1409.github.io/PRESCHOOL2024-ALENA/image-gallery"
-                                class="section-link-projects" target="_blank">Image-gallery</a></li>
-                        <li><a href="https://Alena1409.github.io/cssMemeSlider/cssMemeSlider/index.html"
-                                class="section-link-projects" target="_blank">CssMemeSlider</a></li>
-                        <li><a href="https://alena1409.github.io/HomeworkHexlet" class="section-link-projects"
-                                target="_blank">MathGame</a></li>
-                        <li><a href="https://Alena1409.github.io/rsschool-cv/" class="section-link-projects"
-                                target="_blank">CV</a></li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section right" id="Courses">
-                <h2 class="section-title">Courses</h2>
-                <div class="section-description">
-                    <ul class="section-list section-list-ba">
-                        <li>JavaScript / Front-end Course (pre-school-ru) <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><span
-                                    class="section-span">RS School</span></a> (HTML, CSS, JS)</li>
-                        <li>Training courses <a href="https://pre.hexlet.io/frontend" target="_blank"><span
-                                    class="section-span">Hexlet</span></a> (preparatory Course JS, Basics JS)</li>
-                        <li>Training courses <a href="https://beonmax.com/" target="_blank"><span
-                                    class="section-span">Beonmax</span></a> (HTML, CSS, JavaScript, BOOTSTRAP,
-                            PHP/MYSQL/JQUERY)</li>
-                        <li>Trainings to prepare for the position of department head</li>
-                        <li>Design courses</li>
-                    </ul>
-                </div>
-            </section>
-            <section class="section left" id="English">
-                <h2 class="section-title">English</h2>
-                <div class="section-description">
-                    Beginner level of English.
-                </div>
-                <div class="section-description">
-                    I can read adapted literature at level A2.
-                </div>
-            </section>
-            <section class="section right" id="Education">
-                <h2 class="section-title">Education</h2>
-                <div class="section-description">
-                    MGOU, bachelor degree, peregogic education, direction: economic education.
-                </div>
-            </section>
+      </section>
+      
+      <section class="section" id="Summary">
+        <h2 class="section__title">Summary</h2>
+        <div class="section__description">
+          I worked in a logistics company as a department head. Now I am a self-employed entrepreneur. I had a
+          clothing store. I want to learn js and work as a freelancer. I also do design. I like to read and
+          learn new information.
         </div>
-    </main>
-    <footer class="footer">
-        <div class="container container-flex">
-            <div class="year">
-                2024
-                <a href="https://github.com/Alena1409" target="_blank" class="year-link">Alekseeva Alena</a>
-            </div>
-            <div class="logoschool">
-                <a href="https://rs.school/courses/javascript-ru" target="_blank"><img class="logoRs"
-                        src="assets/img/rs-logo.svg" alt="logo RS School"></a>
-            </div>
+      </section>
+
+      <section class="section" id="Skills">
+        <h2 class="section__title">Skills</h2>
+        <div class="section__description">
+          <ul class="section__list">
+              <li>HTML | CSS | JS | TS</li>
+              <li>Git | GitHub</li>
+              <li>Figma | Conva</li>
+              <li>Bootstrap | Sass</li>
+              <li>Angular | Material</li>
+              <li>Netlifly</li>
+              <li>Vite</li>
+          </ul>
         </div>
-    </footer>
+      </section>
+
+      <section class="section" id="Code">
+        <h2 class="section__title">Code</h2>
+        <div class="section__description">
+          <code class="section__code">
+            function getTimeRemaining(endtime) {<br>
+            &nbsp;let t = Date.parse(endtime) - Date.parse(new Date());<br>
+            &nbsp;let seconds = Math.floor((t/1000) % 60);<br>
+            &nbsp;let minutes = Math.floor((t/1000/60) % 60);<br>
+            &nbsp;let hours = Math.floor((t/(1000*60*60)));<br>
+            }
+          </code>
+        </div>
+      </section>
+
+      <section class="section" id="Projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="section__description">
+          <ul class="section__list">
+            <li><a href="https://rolling-scopes-school.github.io/alena1409-JSFE2024Q4/christmas-shop/" class="section__link" target="_blank">Christmas-shop</a></li>
+            <li><a href="https://rolling-scopes-school.github.io/alena1409-JSFE2024Q4/simon-says/" class="section__link" target="_blank">Simon-says</a></li>
+            <li><a href="https://rolling-scopes-school.github.io/alena1409-JSFE2024Q4/nonograms/" class="section__link" target="_blank">Nonograms</a></li>
+            <li><a href="https://alena1409.github.io/PRESCHOOL2024-ALENA/audio-player" class="section__link" target="_blank">Audio-player</a></li>
+            <li><a href="https://alena1409.github.io/PRESCHOOL2024-ALENA/shelter" class="section__link" target="_blank">Shelter</a></li>
+            <li><a href="https://stolen-art.netlify.app/" class="section__link" target="_blank">Stolen-art</a></li>
+            <li><a href="https://alena1409.github.io/PRESCHOOL2024-ALENA/random-game" class="section__link" target="_blank">Random-game(snake)</a></li>
+            <li><a href="https://alena1409.github.io/PRESCHOOL2024-ALENA/image-gallery" class="section__link" target="_blank">Image-gallery</a></li>
+            <li><a href="https://Alena1409.github.io/cssMemeSlider/cssMemeSlider/index.html" class="section__link" target="_blank">CssMemeSlider</a></li>
+            <li><a href="https://alena1409.github.io/HomeworkHexlet" class="section__link" target="_blank">MathGame</a></li>
+            <li><a href="https://Alena1409.github.io/rsschool-cv/" class="section__link" target="_blank">CV</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="Courses">
+        <h2 class="section__title">Courses</h2>
+        <div class="section__description">
+          <ul class="section__list">
+            <li>JavaScript / Front-end Course RS School</li>
+            <li>JavaScript / Front-end Course (pre-school-ru)
+              <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank"><span class="section__span">RS School</span></a> (HTML, CSS, JS)
+            </li>
+            <li>Training courses 
+              <a href="https://pre.hexlet.io/frontend" target="_blank"><span class="section__span">Hexlet</span></a> (preparatory Course JS, Basics JS)
+            </li>
+            <li>Training courses <a href="https://beonmax.com/" target="_blank"><span class="section__span">Beonmax</span></a> (HTML, CSS, JavaScript, BOOTSTRAP, PHP/MYSQL/JQUERY)
+            </li>
+            <li>Trainings to prepare for the position of department head</li>
+            <li>Design courses</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section" id="English">
+          <h2 class="section__title">English</h2>
+          <div class="section__description">Beginner level of English.</div>
+          <div class="section__description">I can read adapted literature at level A2.</div>
+      </section>
+
+      <section class="section" id="Education">
+        <h2 class="section__title">Education</h2>
+        <div class="section__description">MGOU, bachelor degree, peregogic education, direction: economic education.</div>
+      </section>
+    </div>
+  </main>
+  
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__content">
+        <div>2025</div>
+        <div><a href="https://github.com/Alena1409" target="_blank" class="footer__link">Alekseeva Alena</a></div>
+      </div>
+      <div class="footer__logo">
+        <a href="https://rs.school/courses/javascript-ru" target="_blank"><img src="assets/img/rs-logo.svg" alt="logo RS School"></a>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
